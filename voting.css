@@ -1,0 +1,85 @@
+body {
+    display: flexbox;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: aliceblue;
+    background-color: whitesmoke;
+    column-span: all;
+    background-color: gold;
+}
+
+em {
+    color: blue;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+
+b {
+    color: red;
+    font-size: medium;
+    text-align: justify;
+}
+
+h4 {
+    color: goldenrod;
+    text-decoration-line: underline;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: -15%;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(81, 175, 182);
+    text-shadow: chartreuse;
+    text-decoration-style: wavy;
+    text-overflow: ellipsis;
+    text-rendering: geometricPrecision;
+    text-shadow: 50cm;
+    box-shadow: 50cm;
+    text-decoration-color: brown;
+}
+
+div [type="radio"] {
+    box-sizing: border-box;
+    padding: 10%;
+    display: inline;
+    text-align: right;
+    contain: style;
+    box-sizing: border-box;
+    box-shadow: aliceblue;
+}
+
+strong {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+input[type="submit"] {
+    background-color: rgb(4, 77, 4);
+    border-radius: 50%;
+    color: white;
+    padding: 16px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: rgb(233, 9, 20);
+    animation: backwards;
+}
+
+img {
+    margin-right: 0%;
+    border-image: round;
+    border-radius: 50%;
+    border-color: red;
+    image-rendering: optimizeQuality;
+}
+
+footer {
+    text-align: center;
+}
